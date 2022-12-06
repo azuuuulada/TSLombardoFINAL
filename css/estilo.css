@@ -2,3 +2,20 @@ h1 {
   color: blue;
   font-size: 3rem;
   background-color: cornsilk; }
+
+.gridContainer {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(3, auto); }
+  .gridContainer header {
+    grid-area: header; }
+    .gridContainer header .logo {
+      padding: 20px h3;
+        padding-font-size: 2rem;
+        padding-font-family: 'tahoma';
+        padding-color: blue; }
+  .gridContainer main {
+    grid-area: main; }
+  .gridContainer footer {
+    grid-area: footer; }
