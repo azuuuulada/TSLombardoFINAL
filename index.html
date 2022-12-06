@@ -4,46 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio SASS</title>
     <!--LINK CSS-->
     <link rel="stylesheet" href="css/estilo.css">
     <!--NODEMON COMANDO: npm run watch-css SE PONE EN LA CONSOLA CADA QUE EMPIEZO-->
-    <title>Index SASS</title>
+    <!--LINK FAMILY FONT IBM Plex Mono-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div class="gridContainer">
-        <header>
-            <div class="logo">
-                <h3>LOGO</h3>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Biografía</a></li>
-                    <li><a href="#">Discografía</a></li>
-                    <li><a href="#">Sitios Oficiales</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <div class="encabezado">
-                <h2>Welcome to...</h2>
-            </div>
-            <div class="texto">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus pariatur mollitia provident cum illum tempore sunt ex sint. Nobis tempora similique veniam consectetur nostrum impedit, molestiae optio quo quibusdam reiciendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo officia laboriosam architecto id provident deserunt ut commodi in explicabo? A quaerat ipsa dolore quo dignissimos ratione laboriosam, explicabo aliquam placeat! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam sit non eveniet magni provident voluptates tempora reiciendis quae necessitatibus recusandae deserunt, maxime culpa! Suscipit eum nisi perferendis odio exercitationem sint? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto aliquid neque, dolores non accusantium voluptates mollitia illum unde aspernatur nisi beatae dolorem eaque iste facilis similique quibusdam, excepturi ab nihil!</p>
-            </div>
-        </main>
-        <footer>
-            <div class="logo">
-                <h3>LOGO</h3>
-            </div>
-            <div class="rrss">
-                <h3>REDES SOCIALES</h3>
-            </div>
-            <div class="contacto">
-                <h3>CONTACTO</h3>
-            </div>
-        </footer>
-    </div>
+
+<body id="fondo">
+<div class="grid">
+    <header class="flexbox">
+        <img  id="headerLogo" src="img/logo2.jpeg" alt="logo">
+		<nav id="navHeader">
+			<ul>
+			    <li><a href="#">Inicio</a></li>
+			    <li><a href="pages/biografia.html">Biografía</a></li>
+                <li><a href="pages/discografia.html">Discografía</a></li>
+                <li><a href="pages/sitiosOficiales.html">Sitios Oficiales</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
+			</ul> 
+		</nav>
+	</header>
+
+    <main align="center">
+        <!-- IMG -->
+        <div>
+            <h1 id="titulo" >ULTIMAS NOTICIAS</h1>
+        </div>
+        <!-- ENCABEZADO -->
+        <div>
+            <p>
+                Taylor Swift en la portada de su ultimo album "Midnights"
+            </p>
+        </div>
+        <!-- TEXTO -->
+        <div>
+            <p> Midnights es el décimo álbum de estudio de la cantautora estadounidense Taylor Swift. 
+                El álbum se lanzó el 21 de octubre de 2022 a través de Republic Records.
+                Es su primer trabajo nuevo desde su noveno álbum de estudio, Evermore. 
+                Swift anunció el álbum en los MTV Video Music Awards 2022 el 28 de agosto. </p>
+
+                <h4>REPRODUCE EL ALBUM Y MIRA CUANDO FUE ANUNCIADO</h4>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3lS1y25WAhcqJDATJK70Mq?utm_source=generator&theme=0" width="50%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                <iframe width="350" height="250" src="https://www.youtube.com/embed/GOOpACczcBE" title="Taylor Swift announces new album onstage at VMAs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/p/CkawwhLufL1/?utm_source=ig_web_copy_link" target="_BLANK">
+                <img id="img" src="img/tour.jpeg" alt="fechas tour">
+            </a>
+            <p>Este pasado 1 de Noviembre, el equipo de la cantante anuncio fechas para su próximo
+                tour! Después de casi 4 años, Taylor Swift vuelve a los escenarios con "The Eras Tour",
+                donde va a abarcar canciones desde "Midnights" hasta el principio con su self-titled album.
+                Por ahora solo fechas en US fueron lanzadas, pero aseguraron que proximamente van a salir
+                las internacionales, Argentina podría estar en esa lista...
+            </p>
+         </div>
+
+        
+        <div>
+            <p class="divP">
+                Para mas informacion sobre Taylor o su discografia, visita las demas pestañas de este foro!
+            </p>
+        </div>
+    </main>
+
+    <footer id="footer">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Volver arriba!</a>
+                </li>
+            </ul>
+        </nav>
+        <div >
+            <h3>©Hecho por Azul Lombardo</h3>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
