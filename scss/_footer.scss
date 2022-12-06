@@ -1,26 +1,15 @@
-footer{
-    @media only screen and (max-width:768px){
-        background-color:black;
-    }
-    background-color:yellow;
-    padding: {
-        top:5px;
-        bottom:10px;
-        left:5px;
-        right:20px;
-    }
-    .logo{
-        padding:5px;
-        h3{
-            font-size:2rem;
-            @media only screen and (max-width:768px){
-                font-size:1.6rem;
-            }
-        }
-    }
-    .rrss{
-        h3{
-            color:violet;
-        }
-    }
+footer{grid-area:footer;padding: 50px 0;}
+#footer div h3{font-family: 'IBM Plex Mono', monospace;font-style: bold;text-align: center;background-color: #c9e8fd; position:fixed;bottom:5px;left:5px;} 
+#footer nav{
+    bottom: 25px;
+    left: 40px;
+    background-color: #b8acd1;
+    position: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    display: inline-block;
+    position: static;
+
 }

@@ -1,0 +1,22 @@
+h1 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 30px;
+    background-image: url("../img/header2.jpeg");
+    padding: 190px;
+    font-size: 30px;
+    text-align: right;
+    flex-wrap: wrap; }
+  
+  h1 {
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-iteration-count: 1; }
+  
+  h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 25px; }
+  
+  h3, h4 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px; }
+  

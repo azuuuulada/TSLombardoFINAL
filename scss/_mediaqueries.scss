@@ -1,0 +1,46 @@
+/* INTERVALO MOBILE */
+@media screen and (max-width: 768px) {
+    #img {
+      display: flex;
+      max-width: 100%;
+      height: auto; }
+    .flex {
+      justify-content: center; }
+    ul {
+      flex-wrap: wrap; }
+    a {
+      font-size: 1.3rem; }
+    #titulo {
+      text-align: left;
+      background-color: aliceblue; }
+    #navHeader ul {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      padding-top: 0px; }
+    #headerLogo {
+      display: flex;
+      width: 50px;
+      height: 50px; } }
+  
+  /* INTERVALO DESKTOP */
+  @media screen and (min-width: 1024px) {
+    nav {
+      display: flex;
+      width: 100%;
+      justify-content: flex-end; }
+    a {
+      font-size: 2rem; }
+    h2 {
+      font-size: 2.3rem;
+      text-align: center; }
+    .m-grid {
+      display: grid;
+      grid-template-areas: "imgEncabezado imgEncabezado" "titulo titulo" "textoTitulo textoTitulo" "imgTexto textoImagen";
+      grid-template-columns: 50% 50%;
+      grid-template-rows: repeat(4, auto); }
+    .img {
+      grid-area: imgEncabezado; }
+    .titulo {
+      grid-area: titulo; } }
+  

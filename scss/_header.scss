@@ -1,0 +1,31 @@
+#headerLogo{
+	padding: 15px;
+    bottom: 10px;
+    margin: 10px;
+    text-align: left;
+    background-color: #b8acd1;
+    height: 90px;
+    width: 90px;
+}
+a{text-decoration: none;padding:10px;}
+#navHeader{
+    display: flex;
+    flex-direction: row;
+    background-color: #b8acd1;
+	position:sticky;
+    font-weight: bold;
+    font-family: 'IBM Plex Mono', monospace;
+    text-decoration: none;
+    margin: 10px;    
+}
+#navHeader li{
+    list-style-type: none;
+    padding: 20px;
+    display: inline-block;
+    width: 15%;
+    position:relative;
+    font-size: 15px;
+    font-family: 'IBM Plex Mono', monospace;
+    flex-wrap: wrap;
+    background-color: #b8acd1;
+}
