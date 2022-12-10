@@ -8,6 +8,7 @@ h1 {
     flex-wrap: wrap; }
   
   h1 {
+    @extend h1;
     animation-name: aparecer;
     animation-duration: 2s;
     animation-iteration-count: 1; }
