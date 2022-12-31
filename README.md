@@ -6,5 +6,7 @@ CARPETA CSS: estilos de la web
 CARPETA SCSS: style.scss con imports de los partials que contienen el estilo
 INDEX + PAGES: webs del proyecto, index.html siendo la principal y dentro de pages se encuentran las otras
 
+..........................................................
+
 © Hecho por Azul Lombardo 
    2022
