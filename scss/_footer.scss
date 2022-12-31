@@ -1,6 +1,6 @@
 footer{grid-area:footer;padding: 50px 0;}
 #footer div h3{font-family: 'IBM Plex Mono', monospace;font-style: bold;text-align: center;background-color: #c9e8fd; position:fixed;bottom:5px;left:5px;} 
-#footer nav{
+#footer nav:hover{
     bottom: 25px;
     left: 40px;
     background-color: map-get($paletaColores, secundario);
